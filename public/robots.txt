@@ -1,0 +1,26 @@
+# Robots.txt for Astro Numero Chatbot
+# Allows all web crawlers to access all content
+
+User-agent: *
+Allow: /
+
+# Disallow crawling of API routes (if any in the future)
+Disallow: /api/
+
+# Disallow crawling of internal Next.js files
+Disallow: /_next/
+
+# Optional: Add your sitemap when you create one
+# Sitemap: https://yourdomain.com/sitemap.xml
+
+# Allow crawling of the main chatbot interface
+Allow: /
+
+# Allow crawling of any static assets
+Allow: /favicon.ico
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.gif
+Allow: /*.svg
