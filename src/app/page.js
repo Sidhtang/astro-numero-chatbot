@@ -1,4 +1,4 @@
-import AstroNumeroChatbot from './components/AstroNumeroChatbot'
+import AstroNumeroChatbot from './component/AstroNumeroChatbot'
 
 export default function Home() {
   return (
